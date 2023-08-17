@@ -1,0 +1,196 @@
+.wpcf7 form.sent .wpcf7-response-output{clear:both;}
+#contact-form-wrapper{background-color:white;
+padding:0;}
+
+.wpb_content_element{margin-bottom:20px;}
+
+.cover-form{
+	   background:    #f1f1f173!important;
+}
+
+.page-id-680 .bg_transparent.vc_tta.vc_general .vc_tta-panel {
+	border-color: rgb(25 25 25) rgb(25 25 25)  rgb(25 25 25)  #d03232;}
+
+.page-id-680 .vc_tta-color-sky.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-title>a {
+    color: black !important;
+	   font-weight: 500 !important;
+}
+
+.page-id-680 .vc_tta-color-sky.vc_tta-style-flat:not(.vc_tta-o-no-fill) .vc_tta-panel-body {
+    color: black !important;
+}
+
+.page-id-680 .wow{color:black !important;}
+
+.page-id-48 .wpb_single_image img
+{height:620px !important;}
+
+#menu-item-632 a {
+    background-color: #D03232;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 4px 30px;
+    margin-top: 4px;
+	  border: 1px solid white;
+    border-radius: 45px;
+}
+
+
+#menu-item-632 a:hover{
+color:white !important;
+text-decoration:underline!important;}
+
+
+
+ .wpcf7-form input[type=text], .wpcf7-form input[type=email], .wpcf7-form textarea, .wpcf7-form input[type=tel], .wpcf7-form input[type=number]{
+	border: none;
+    border-radius: 8px;
+	background: #f1f1f1!important;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 35%)
+}
+.cover-form .wpb_column .wpb_wrapper input {
+    margin-bottom: 10px;
+}
+.cover-form .wpb_column .wpb_wrapper input[type=tel]{
+	 margin-bottom: 10px!important;
+}
+.cover-form .wpb_column .wpb_wrapper textarea.wpcf7-form-control.wpcf7-textarea {
+    height: 126px !important;
+}
+.vc_custom_1453459354945 .wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output{
+	 position: absolute!important;
+    bottom: 130px!important;
+	right: 60px;
+	width : 35%;
+	color: #f1f1f1;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+#menu-item-632 a {
+    text-align:left;
+	padding: 4px 20px;
+	border: none;
+  border-radius: 0;
+	background-color: #D03232!important;
+  color: white !important;
+	
+  }
+	
+	
+	
+	.cover-form{
+		 width : 80%!important;
+		 top: 98px!important;
+	}
+	
+	div#slide-2-layer-2 {
+    position: absolute;
+    top: -295px;
+		left: 28px;
+  }
+	div#slide-2-layer-5 {
+    position: relative;
+    top: -291px;
+    left: 28px;
+  }
+.vc_custom_1453459354945{
+		height :820px;
+	}
+	ul.tp-revslider-mainul {
+    height: 950px!important;
+  }
+	.wpcf7-form input[type=text],    .wpcf7-form input[type=email],    .wpcf7-form textarea{
+		margin-bottom : 6px!important;
+	}
+	.wpcf7-form input[type=tel], .wpcf7-form input[type=number]{
+		margin-bottom : 0px;
+		
+	}
+	.wpb_content_element {
+    margin-bottom: 0px;
+  }
+	.cover-form .wpb_column    .wpb_wrapper input[type=tel]{
+		margin-bottom: 6px!important;
+	}
+	.cover-form .wpb_column    .wpb_wrapper input[type=number]{
+		margin-bottom : 6px!important;
+	}
+	.cover-form .cover-form-submit p{
+		margin-bottom : 0px;
+	}
+	 .vc_custom_1453459354945 .wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output{
+	 position: absolute!important;
+    bottom: -100px!important;
+    left: 11px;
+    width: 90%;
+  }
+}
+
+
+
+
+header .info{
+	 text-align : left;
+}
+.header-media-off #mainmenu-container #mainmenu > li:last-child a, .site-header-2 #mainmenu-container #mainmenu > li:last-child a {
+    padding-right: 28px;
+}
+.cover-form{
+	width: 40%;
+    position: absolute;
+    top: 170px;
+    right: 50px;
+    background: #f1f1f1;
+  		padding: 37px 0px!important;
+
+    border-radius: 11px;
+}
+.cover-form-submit{
+	 background : #D03232;
+}
+.cover-form-submit input{
+	 border: none!important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.cover-form{
+		 top : 207px;
+	}
+}
+
+
+
+<div class="vc_row wpb_row vc_row-fluid cover-form"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+		       [text* your-name placeholder "Your Name"]
+                       [tel tel-440 placeholder "Mobile Number"]
+                       [email* email-59 placeholder "Your Email"]
+                       [text text-571 placeholder "Commodity to be moved"]
+                       [number number-130 min:0 placeholder "Gross weight"]
+
+		</div>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+                       [text text-692 placeholder "Pickup location"]
+                       [text text-763 placeholder "Delivery location"][textarea textarea-489 placeholder "Your Message"] 
+</div></div></div>
+<div class="text-center wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1452746647286"><div class="wpb_wrapper wow fadeInUp cover-form-submit" style="visibility: visible; animation-name: fadeInUp; border-radius: 20px">			
+	[submit "SEND"]
+</div></div></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
